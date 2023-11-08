@@ -58,7 +58,8 @@ ning,_Hacking_and_Pushing_VPP_Code) which provides extensive step-by-step
 coverage of the topic.
 
 For the impatient, some salient information is distilled below.
-
+使用xdp前请先删除本地的xdp库后再重新编译
+对于使用python虚拟环境编译的场景，记得手动pip install ply，否则编译时认为系统环境有就不会给虚拟环境安装
 
 ### Quick-start: On an existing Linux host
 
